@@ -1,0 +1,50 @@
+header {
+    background-color: #7C5E99 ;
+    border-bottom: 10px solid #000;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav   {
+    
+    text-align: right;    
+}
+
+a{
+    display:inline-flex ;
+    align-items: center;
+    color: #FFF;
+    font-size: 20px;
+    font-family: "Fira Code", Arial, Helvetica, sans-serif; /*Atribuimos mais de uma fonte para fazermos o "fallback", que seria um plano b, c, ou quantos precisarem.
+    O fallback consiste em termos mais de uma opção caso aconteca algum erro ou qualquer outra coisa com a primeira opção, para assim termos um plano reserva e não deixarmos
+    com a fonte feia.*/
+    font-weight: 500;
+    text-decoration: none;
+    margin-right: 30px;    
+}
+
+a::before{
+    content: "";
+    width: 10px;
+    height: 10px;
+    background-color: #F25A70;
+    margin-right: 10px;
+    
+    
+}
+
+#button {
+    display: inline-block; 
+    background-color: #F25A70;
+    box-shadow: 5px 5px 0px #000;
+    padding : 18px 20px;
+    margin-right: 0px;  
+    transition: transform 100ms linear; /*faz com que tenha uma transição na animação do botão quando retiramos o mouse*/
+}
+
+#button:hover {
+    background-color: #f70025;
+    transform: scale(1.08) ;
+
+}
