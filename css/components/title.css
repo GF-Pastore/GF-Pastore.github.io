@@ -1,34 +1,23 @@
 h1{
-    display: inline-block;
+    color: #F25A70;
+    font-size: 31px;
+    font-family: "Press Start 2P", sans-serif;
+    font-weight: 400;
+    text-shadow: 4px 4px 0px #000;
+    width: 440px;
+    height: 40px;
+   
     background-color: #3A4042;
-    width: 627px;
-    height: 184px;
-    font-family: "Press Start 2P",Arial, Helvetica, sans-serif;
     margin-top: 116px ;
     margin-left: 91px;
     margin-right: 722px;
-    font-weight: 400;
     box-shadow: 10px 10px 0px #000; 
-    text-shadow: 4px 4px 0px #000;
-}
-
-#p1{
-    color: #F25A70;
-    font-size: 40px; 
-    width: 440px;
-    height: 40px;
     padding-left: 90px;
     padding-bottom: 28px;
     padding-top: 42px;
     padding-right: 97px;
-
 }
 
-#p2 {
-    color: #FFF ;
-    font-size: 30px;
-    width: 540px;
-    height: 30px;
-    padding-left: 40px;
-    padding-right: 47px;
-}
+
+   
+

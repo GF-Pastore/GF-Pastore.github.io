@@ -16,7 +16,7 @@ a{
     align-items: center;
     color: #FFF;
     font-size: 20px;
-    font-family: "Fira Code", Arial, Helvetica, sans-serif; /*Atribuimos mais de uma fonte para fazermos o "fallback", que seria um plano b, c, ou quantos precisarem.
+    font-family: "Fira Code", sans-serif; /*Atribuimos mais de uma fonte para fazermos o "fallback", que seria um plano b, c, ou quantos precisarem.
     O fallback consiste em termos mais de uma opção caso aconteca algum erro ou qualquer outra coisa com a primeira opção, para assim termos um plano reserva e não deixarmos
     com a fonte feia.*/
     font-weight: 500;
