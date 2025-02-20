@@ -1,13 +1,17 @@
-#button {
+.button {
     display: inline-block; 
     background-color: #F25A70;
     box-shadow: 5px 5px 0px #000;
     padding : 18px 20px;
     margin-right: 0px;  
     transition: transform 100ms linear; /*faz com que tenha uma transição na animação do botão quando retiramos o mouse*/
+    font-size: 20px;
+    color: #fff;
+    text-decoration: none;
+    font-family: "Fira Code", sans-serif;
 }
 
-#button:hover {
+.button:hover {
     background-color: #f70025;
     transform: scale(1.08) ;
 
